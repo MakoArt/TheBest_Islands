@@ -1,0 +1,205 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 1500px;
+  background: linear-gradient(90deg, #b5b811, orange, #6cc00c);
+}
+
+/*HEADER*/
+.main-header {
+  width: 100%;
+  height: 200px;
+}
+
+.main-header-h1 {
+  text-align: center;
+  color: #011d01;
+  font-size: 50px;
+}
+
+.main-header-img {
+  width: 90%;
+  height: 150px;
+}
+
+.main-nav {
+  width: 90%;
+  height: 100px;
+  display: flex;
+}
+
+.main-nav-ul {
+  display: flex;
+  width: 100%;
+}
+
+.main-ul-li {
+  list-style: none;
+  justify-content: space-around;
+  margin-left: -5%;
+}
+
+.main-ul-li-a {
+  text-decoration: none;
+  color: #ac8181;
+  background-color: #085325;
+  padding: 8px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 9px 9px 19px 4px #062206;
+}
+
+.main-ul-li-a:hover {
+  padding: 12px;
+}
+
+.main-article-container1,
+.main-article-container2,
+.main-article-container3,
+.main-article-container4 {
+  margin-top: 5%;
+  width: 100%;
+  display: block;
+}
+
+.main-header-img {
+  background-image: url("../img/cook_ISLAND.jpg");
+  background-size: cover;
+  height: 200px;
+  box-shadow: 9px 9px 9px 3px #032403;
+}
+
+.main-main {
+  height: 500px;
+  width: 90%;
+}
+
+.main-section-img {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  box-shadow: 9px 9px 9px 3px #032403;
+}
+
+.main-section-img h3 {
+  text-align: center;
+  color: #053809;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.main-section-img-7 h3 {
+  color: #0a640a;
+}
+
+@media (min-width: 500px) {
+  .main-section-img {
+    height: 250px;
+  }
+
+  .main-header-img {
+    height: 250px;
+  }
+
+  .main-ul-li {
+    margin-top: 60px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 700px) {
+  .main-section-img {
+    height: 300px;
+  }
+
+  .main-header-img {
+    height: 300px;
+  }
+
+  .main-ul-li {
+    margin-top: 90px;
+    margin-left: 5%;
+  }
+
+  .main-ul-li-a {
+    padding: 16px;
+  }
+}
+@media (min-width: 800px) {
+  .main-section-img {
+    height: 350px;
+  }
+
+  .main-header-img {
+    height: 450px;
+  }
+
+  .main-ul-li {
+    margin-top: 90px;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1000px) {
+  .main-article-container1,
+.main-article-container2,
+.main-article-container3,
+.main-article-container4 {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+  }
+}
+@media (min-width: 1300px) {
+  .main-section-img {
+    height: 400px;
+  }
+
+  .main-header-img {
+    height: 400px;
+  }
+
+  .main-ul-li {
+    margin-top: 90px;
+    margin-left: 5%;
+  }
+
+  .main-ul-li-a {
+    padding: 16px;
+  }
+}
+body {
+  height: 700px;
+}
+
+.cayman-h1 {
+  color: orangered;
+  text-align: center;
+}
+
+.cayman-a {
+  text-decoration: none;
+  color: black;
+  background-color: green;
+  padding: 8px;
+  margin-left: 36%;
+  border-radius: 9px 9px 9px 9px;
+}
+
+body {
+  height: 1000px;
+}
+
+.cies-a {
+  background-color: green;
+  padding: 9px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: orangered;
+  border-radius: 9px 9px 9px 9px;
+  position: absolute;
+  margin-left: 30%;
+}
+
+/*# sourceMappingURL=main.css.map */
